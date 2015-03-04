@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Knewave&effect=font-effect-3d);
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One|Luckiest+Guy|Sonsie+One|Shojumaru&effect=3d|3d-float|anaglyph|brick-sign|canvas-print|
+            crackle|decaying|destruction|distressed|distressed-wood|emboss|fire|fire-animation|fragile|grass|ice|mitosis|neon|outline|putting-green|
+            scuffed-steel|shadow-multiple|splintered|static|stonewash|vintage|wallpaper);
+
+body{
+	margin : 20px;
+	background-color: #333;
+}
+
+.container{
+	background-color: #1C2427;
+	padding : 5px;
+}
+
+.stickyNotes{
+	margin : 3px;
+}
+.col-md-3{padding : 0px;}
+.orangeBackground{background-color: #F44336;}
+.orangeBackground :hover{background-color: #FFCCBC;}
+.pinkBackground {
+	background: #E91E63;
+	-webkit-transition: background-color 2s;
+	-moz-transition: background-color 2s;
+	-o-transition: background-color 2s;
+	transition: background-color 2s;
+}
+
+.pinkBackground:hover {
+	background-color: #F8BBD0;
+	cursor: pointer;
+}
+.limeBackground{background-color: #CDDC39;}
+
+.lightCyanBackground{background-color: #00E676;}
+.greenBackground{background-color: #8BC34A;}
+.rest .myButtons{margin : 10px;}
+p{margin : 2px;}
+.purpleBackground
+{
+	overflow: hidden;
+	background-color: #9C27B0;  
+	transition-duration: 0.8s;
+	transition-property: transform;
+}
+.purpleBackground:hover{background-color : #00BCD4;transform: rotate(360deg);}
+.lightCyanBackground, .greenBackground, .limeBackground {
+	overflow: hidden;
+	transition-duration: 0.8s;
+	transition-property: transform;
+}
+.lightCyanBackground:hover {
+	transform: rotateX(180deg);
+}
+.greenBackground:hover {
+	transform: rotateY(180deg);
+}
+.limeBackground:hover{
+	transform: rotateZ(180deg);
+}
+
+.myButtons li{
+	font-family: 'Shojumaru';
+}
+
+
